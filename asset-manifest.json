@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/brainflix/static/css/main.5c7c6fe4.css",
+    "main.js": "/brainflix/static/js/main.98e7c1af.js",
+    "static/media/Mohan-muruge.jpg": "/brainflix/static/media/Mohan-muruge.7f8e1b851a284bcfa377.jpg",
+    "static/media/AvenirNextLTPro.ttf": "/brainflix/static/media/AvenirNextLTPro.3f6c730b0f59f3838d71.ttf",
+    "static/media/AvenirNextLTProBold.ttf": "/brainflix/static/media/AvenirNextLTProBold.3c6bf152ce9d23ec3657.ttf",
+    "static/media/AvenirNextLTPro-Bold.otf": "/brainflix/static/media/AvenirNextLTPro-Bold.abfbc7167526a2d9f205.otf",
+    "static/media/AvenirNextLTPro-Regular.otf": "/brainflix/static/media/AvenirNextLTPro-Regular.75d8c490a81ae1a6be46.otf",
+    "static/media/BrainFlix-logo.svg": "/brainflix/static/media/BrainFlix-logo.e2aad4fb297e98c251c75ff31699a7af.svg",
+    "index.html": "/brainflix/index.html",
+    "static/media/search.svg": "/brainflix/static/media/search.b2de04bd644372446a508d25c3df2654.svg",
+    "static/media/upload.svg": "/brainflix/static/media/upload.5883ade39f5afef46caee6a664643bad.svg",
+    "static/media/views.svg": "/brainflix/static/media/views.8b6d21c6dac0adba201d39b7392ea6cf.svg",
+    "static/media/likes.svg": "/brainflix/static/media/likes.246cd8f4356b27c4d0cb18d1be8605d2.svg",
+    "static/media/add_comment.svg": "/brainflix/static/media/add_comment.26bc7a200a77fd1eb3c8aec190e24f1e.svg",
+    "main.5c7c6fe4.css.map": "/brainflix/static/css/main.5c7c6fe4.css.map",
+    "main.98e7c1af.js.map": "/brainflix/static/js/main.98e7c1af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c7c6fe4.css",
+    "static/js/main.98e7c1af.js"
+  ]
+}
