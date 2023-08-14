@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import VideoUpload from "./pages/VideoUpload/VideoUpload";
 import VideoDetails from "./pages/VideoDetails/VideoDetails";
