@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/brainflix/static/css/main.5c7c6fe4.css",
-    "main.js": "/brainflix/static/js/main.98e7c1af.js",
+    "main.js": "/brainflix/static/js/main.a11ce8d5.js",
     "static/media/Mohan-muruge.jpg": "/brainflix/static/media/Mohan-muruge.7f8e1b851a284bcfa377.jpg",
     "static/media/AvenirNextLTPro.ttf": "/brainflix/static/media/AvenirNextLTPro.3f6c730b0f59f3838d71.ttf",
     "static/media/AvenirNextLTProBold.ttf": "/brainflix/static/media/AvenirNextLTProBold.3c6bf152ce9d23ec3657.ttf",
@@ -15,10 +15,10 @@
     "static/media/likes.svg": "/brainflix/static/media/likes.246cd8f4356b27c4d0cb18d1be8605d2.svg",
     "static/media/add_comment.svg": "/brainflix/static/media/add_comment.26bc7a200a77fd1eb3c8aec190e24f1e.svg",
     "main.5c7c6fe4.css.map": "/brainflix/static/css/main.5c7c6fe4.css.map",
-    "main.98e7c1af.js.map": "/brainflix/static/js/main.98e7c1af.js.map"
+    "main.a11ce8d5.js.map": "/brainflix/static/js/main.a11ce8d5.js.map"
   },
   "entrypoints": [
     "static/css/main.5c7c6fe4.css",
-    "static/js/main.98e7c1af.js"
+    "static/js/main.a11ce8d5.js"
   ]
 }
