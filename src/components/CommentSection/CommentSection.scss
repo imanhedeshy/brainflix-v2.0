@@ -1,0 +1,9 @@
+@use "../../styles/partials/mixins" as *;
+
+.comment-section {
+  margin-top: 1.5rem;
+  &__header {
+    margin-bottom: 1.5rem;
+  }
+}
+

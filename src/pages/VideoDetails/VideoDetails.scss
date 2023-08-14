@@ -1,0 +1,71 @@
+@use "../../styles/partials/animations" as *;
+@use "../../styles/partials/variables" as *;
+
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 48px;
+  font-weight: bold;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+
+  span {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border-radius: 4px;
+    animation: floatAnimation 4s infinite;
+    transition: all 0.3s ease;
+    cursor: default;
+
+    &:hover {
+      animation-play-state: paused;
+
+      transform: translateY(-5px) rotate(5deg);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  p {
+    margin-left: 20px;
+    font-size: 24px;
+
+    transition: all 1s;
+
+    &:hover {
+        transform: rotate(360deg);
+    }
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%h;
+  min-height: 10rem;
+  background-color: #2c3e50;
+
+  .cube {
+    width: 40px;
+    height: 40px;
+    background-color: #e74c3c;
+    animation: foldCube 2.4s infinite both;
+    transform-origin: 100% 100%;
+
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: #3498db;
+      animation: foldCube 2.4s infinite both;
+      transform-origin: 0 100%;
+    }
+  }
+}

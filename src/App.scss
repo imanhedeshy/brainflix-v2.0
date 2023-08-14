@@ -1,0 +1,12 @@
+@use "./styles/partials/presets" as *;
+@use "./styles/partials/variables" as *;
+@use "./styles/partials/mixins" as *;
+@use "./styles/partials/typography" as *;
+@use "./styles/partials/animations" as *;
+
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem auto;
+}

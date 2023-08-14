@@ -1,0 +1,74 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 0;
+  border-top: 0.0625rem solid $BrainFlix-Mercury;
+  border-bottom: 0.0625rem solid $BrainFlix-Mercury;
+
+  &__image {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: $BrainFlix-Mercury;
+  }
+
+  &-container {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+
+    &__date {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      color: $BrainFlix-Silver;
+    }
+
+    &__delete {
+      width: 3rem;
+      height: 1.5rem;
+      margin-left: 0.5rem;
+      background-color: $BrainFlix-Silver;
+      border: none;
+      color: $BrainFlix-White;
+      border-radius: 0.1875rem;
+      font-size: 0.75rem;
+
+      &:hover {
+        background-color: $BrainFlix-ErrorRed;
+        cursor: pointer !important;
+      }
+    }
+
+    &__likes {
+      display: flex;
+      align-items: center;
+      background-color: white;
+      border: none;
+      margin: 0 0.5rem;
+
+      &:hover {
+        cursor: pointer !important;
+      }
+    }
+
+    &__text {
+      width: 100%;
+      padding-top: 0.75rem;
+    }
+  }
+}
+
+@include desktop {
+  .comment {
+    padding-right: 1.5rem;
+  }
+}
