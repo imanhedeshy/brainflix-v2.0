@@ -9,8 +9,8 @@ import UploadThumbnailPlaceholder from "../UploadThumbnailPlaceholder/UploadThum
 import "./UploadForm.scss";
 
 export default function UploadForm() {
-  const API_URL = process.env.REACT_APP_API_URL;
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_URL = "https://iman-hedeshy-api-heroku-2331c58eb9de.herokuapp.com";
+  const API_KEY = "caf0a1c9-1cac-4619-8fe6-8fa51ffba824";
 
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
@@ -31,7 +31,7 @@ export default function UploadForm() {
       formData.append("views", 0);
       formData.append("likes", 0);
       formData.append("duration", "11:11");
-      formData.append("video", "http://localhost:8080/videos/BrainStation Sample Video.mp4");
+      formData.append("video", "https://iman-hedeshy-api-heroku-2331c58eb9de.herokuapp.com/videos/BrainStation Sample Video.mp4");
       formData.append("timestamp", new Date().getTime().toString());
       formData.append("comments", "[]");
 

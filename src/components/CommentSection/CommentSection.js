@@ -6,8 +6,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function CommentSection({ videoDetails }) {
-  const API_URL = process.env.REACT_APP_API_URL;
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_URL = "https://iman-hedeshy-api-heroku-2331c58eb9de.herokuapp.com";
+  const API_KEY = "caf0a1c9-1cac-4619-8fe6-8fa51ffba824";
 
   const videoId = videoDetails.id;
 
