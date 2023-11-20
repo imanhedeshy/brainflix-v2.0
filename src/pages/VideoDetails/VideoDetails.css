@@ -1,0 +1,127 @@
+@keyframes tilt-shaking {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(0eg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes floatAnimation {
+  0% {
+    transform: translateY(0px) rotate(0deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    transform: translateY(-10px) rotate(15deg);
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  }
+  100% {
+    transform: translateY(0px) rotate(0deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+@keyframes foldCube {
+  0%, 10% {
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%, 75% {
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%, 100% {
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+@keyframes waveAnimation {
+  0%, 60%, 100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+  40% {
+    transform: scaleY(0.8);
+  }
+}
+@keyframes loadingDot {
+  0% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 48px;
+  font-weight: bold;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+}
+.not-found span {
+  display: inline-block;
+  padding: 20px 40px;
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  border-radius: 4px;
+  animation: floatAnimation 4s infinite;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+.not-found span:hover {
+  animation-play-state: paused;
+  transform: translateY(-5px) rotate(5deg);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+.not-found p {
+  margin-left: 20px;
+  font-size: 24px;
+  transition: all 1s;
+}
+.not-found p:hover {
+  transform: rotate(360deg);
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100% h;
+  min-height: 10rem;
+  background-color: #2c3e50;
+}
+.loading .cube {
+  width: 40px;
+  height: 40px;
+  background-color: #e74c3c;
+  animation: foldCube 2.4s infinite both;
+  transform-origin: 100% 100%;
+}
+.loading .cube:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #3498db;
+  animation: foldCube 2.4s infinite both;
+  transform-origin: 0 100%;
+}/*# sourceMappingURL=VideoDetails.css.map */

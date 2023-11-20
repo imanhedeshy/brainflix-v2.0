@@ -1,0 +1,24 @@
+.next-video {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.next-video__image {
+  width: 35%;
+  height: 5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.25rem;
+}
+.next-video__details {
+  margin: 1.5rem;
+  width: 50%;
+}
+.next-video__details-title {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.next-video__details-channel {
+  font-weight: 400;
+}/*# sourceMappingURL=NextVideo.css.map */

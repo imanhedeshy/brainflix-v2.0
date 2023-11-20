@@ -1,0 +1,100 @@
+.description__title {
+  font-size: 2rem !important;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.description__hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.description__datechannel {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+.description__channel {
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+.description__date {
+  margin: 1.5rem 0;
+  color: #afafaf;
+}
+.description__viewslikes {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  color: #afafaf;
+}
+.description__views {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-weight: 400;
+}
+.description__views > * {
+  margin-right: 0.5rem;
+}
+.description__likes {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.description__likes > * {
+  margin-right: 0.5rem;
+}
+.description__likes-button {
+  border: none;
+  background-color: white;
+}
+.description__likes-button:hover {
+  cursor: pointer;
+}
+.description__description {
+  margin-bottom: 1.5rem;
+}
+
+/* --- Tablet View --- */
+@media screen and (min-width: 768px) {
+  .description__hero {
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-top: none;
+  }
+  .description__datechannel {
+    width: 55%;
+    flex-direction: row;
+    align-items: center;
+  }
+  .description__viewslikes {
+    width: 45%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+  }
+  .description__date, .description__channel {
+    margin: 0;
+    margin-right: 2rem;
+    padding: 0;
+  }
+  .description__views, .description__likes {
+    margin: 0;
+    margin-left: 2rem;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .description__hero {
+    margin-right: 0;
+    padding-right: 1.5rem;
+  }
+  .description__description {
+    padding-right: 1.5rem;
+  }
+}/*# sourceMappingURL=Description.css.map */

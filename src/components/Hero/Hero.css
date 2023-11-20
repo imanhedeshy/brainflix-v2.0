@@ -1,0 +1,32 @@
+.hero {
+  background-color: #000000;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.hero__video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    transition: all 0.3s;
+  }
+  .hero__video {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero {
+    transition: all 0.3s;
+  }
+  .hero__video {
+    width: 75%;
+  }
+}/*# sourceMappingURL=Hero.css.map */

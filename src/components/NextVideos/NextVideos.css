@@ -1,0 +1,28 @@
+.next-videos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+.next-videos__title {
+  text-transform: uppercase;
+  color: #afafaf;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .next-videos {
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .next-videos {
+    padding-right: 5rem;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+    width: 35%;
+    margin: 0;
+    border-left: 1px solid #e1e1e1;
+  }
+}/*# sourceMappingURL=NextVideos.css.map */
